@@ -95,7 +95,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`Selamat ${a} ${b}, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
 	}
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -498,7 +498,7 @@ exports.AnonOn = () => {
     return `⚠️ Kamu masih dalam sesi chat dengan partner!`
 }
 exports.AnonFind = (prefix) => {
-    return `_Pasangan Ditemukan 🐼_\n${prefix}skip -- _cari pasangan baru_\n${prefix}stop -- _hentikan dialog ini_`
+    return `_Pasangan Ditemukan 💬_\n${prefix}skip -- _cari pasangan baru_\n${prefix}stop -- _hentikan dialog ini_`
 }
 exports.AnonSearch = () => {
     return `🔎 Mohon tunggu sedang mencari teman chat`
@@ -1710,14 +1710,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 ╭─❒ 「 TqTo 」 
 │○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1751,7 +1743,7 @@ Terimakasih!
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 │○ 𝖴𝗆𝗎𝗋 :
@@ -1760,7 +1752,7 @@ exports.welcome = () =>{
 ╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Yah kok out Mental aman kan kak >.<
 Goodbye`
 }
 exports.source = () =>{
@@ -1774,13 +1766,13 @@ exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
+Hai kak 
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
 
 Berapapun donasi kalian akan sangat berarti 👍
 Buat kalian yang sudah donasi bisa kirim bukti
 donasi ke owner agar bisa di masukkan ke list donasi
-
+https://saweria.co/Fiixlyz
 Thanks!
 
 Contact person Owner:
@@ -2429,14 +2421,6 @@ return`╭─❒ 「 Random Cewe 」
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
 │○ My God
-│○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
 │○ Penyedia Module
 ╰❒ And All Support
 `
